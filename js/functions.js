@@ -7,6 +7,17 @@ function createSquare100(){
         let square = document.createElement('div');
         square.classList.add('square');
         square.classList.add('border-on');
+        square.innerHTML = x;
         squaresContainer.append(square);
+    }
+}
+
+
+function removeSquare100(){
+
+    let squares = document.getElementsByClassName('square');
+    
+    while(squares[0] != null) {
+        squares[0].remove();
     }
 }
