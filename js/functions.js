@@ -1,23 +1,31 @@
-function createSquare100(){
+function createSquare(){
 
-    let squaresContainer =  document.getElementById("squares-container");
+    const squaresContainer =  document.getElementById("squares-container");
+    const  userNumber = document.getElementById("number-input").value;
 
-    for(let x=1; x<=100; x++){
+    let square;
+    for(let x=1; x<=userNumber; x++){
 
-        let square = document.createElement('div');
+        square = document.createElement('div');
         square.classList.add('square');
         square.classList.add('border-on');
         square.innerHTML = x;
         squaresContainer.append(square);
+
+        square.addEventListener("click", creaColore);
     }
 }
 
 
-function removeSquare100(){
+function removeSquare(){
 
     let squares = document.getElementsByClassName('square');
     
     while(squares[0] != null) {
         squares[0].remove();
     }
+}
+
+function creaColore(){
+    this.classList.toggle("bg_linear_blue");
 }

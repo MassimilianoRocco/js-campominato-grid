@@ -1,7 +1,8 @@
-// ADD100 BUTTON
+// ADD BUTTON
 const addButton = document.getElementById("create-button");
-addButton.addEventListener( "click", createSquare100);
+addButton.addEventListener( "click", createSquare);
 
-// REMOVE100 BUTTON
+// REMOVE BUTTON
 const removeButton = document.getElementById("delete-button");
-removeButton.addEventListener( "click", removeSquare100);
+removeButton.addEventListener( "click", removeSquare);
+

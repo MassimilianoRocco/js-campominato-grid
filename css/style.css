@@ -38,6 +38,11 @@
     border: 1px solid black;
 }
 
+.bg_linear_blue{
+    background: 
+    linear-gradient(90deg, rgba(242,242,242,0.9626225490196079) 0%, rgba(96,96,251,1) 50%, rgba(122,219,238,1) 100%);
+}
+
 
 
 /*****                 ****/
@@ -47,7 +52,8 @@
 .row{
     width: 100vw;
     padding: 1rem;
-    background-color: rgb(59, 137, 201);
+    background:
+    linear-gradient(90deg, rgba(242,242,242,0.9626225490196079) 0%, rgba(96,96,251,1) 50%, rgba(122,219,238,1) 100%);
 }
 
 .superior-bar{
@@ -74,6 +80,11 @@
     background:
     linear-gradient(90deg, rgba(242,242,242,0.9626225490196079) 0%, rgba(96,96,251,1) 50%, rgba(122,219,238,1) 100%);
     margin: 0 0.5rem;
+}
+
+#number-input{
+    width: 20rem;
+    height: 2rem;
 }
 
 .square{
