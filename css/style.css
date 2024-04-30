@@ -8,5 +8,67 @@
 }
 
 /*****                 ****/
+/***** GENERAL _STYLE  ****/
+/*****                 ****/
+
+.test-h{
+    height: 800px;
+}
+
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.wrap-on{
+    flex-wrap: wrap;
+}
+.border-on{
+    border: 1px solid black;
+}
+
+
+
+/*****                 ****/
 /***** CONTENT _STYLE  ****/
 /*****                 ****/
+
+.row{
+    width: 100vw;
+    padding: 1rem;
+    background-color: rgb(59, 137, 201);
+}
+
+.superior-bar{
+    margin-bottom: 1rem;
+}
+
+#squares-container{
+    width: 1000px;
+    margin: auto;
+    background-color: darkgrey;
+}
+
+
+#create-button{
+    border-radius: 15px;
+    padding: 1rem;
+    background:
+    linear-gradient(90deg, rgba(242,242,242,0.9626225490196079) 0%, rgba(96,96,251,1) 50%, rgba(122,219,238,1) 100%);
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+}
