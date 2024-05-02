@@ -1,5 +1,6 @@
 function createSquare(){
 
+    removeSquare();
     const squaresContainer =  document.getElementById("squares-container");
     const  userNumber = document.getElementById("number-input").value;
 
@@ -12,7 +13,7 @@ function createSquare(){
         square.innerHTML = x;
         squaresContainer.append(square);
 
-        square.addEventListener("click", creaColore);
+        square.addEventListener("click", creaColoreEText);
     }
 }
 
@@ -26,6 +27,7 @@ function removeSquare(){
     }
 }
 
-function creaColore(){
+function creaColoreEText(){
     this.classList.toggle("bg_linear_blue");
+    // this.innerHTML.toggle = this.x;  come si può fare?
 }
