@@ -29,5 +29,5 @@ function removeSquare(){
 
 function creaColoreEText(){
     this.classList.toggle("bg_linear_blue");
-    // this.innerHTML.toggle = this.x;  come si può fare?
 }
+
